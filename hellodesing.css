@@ -1,4 +1,4 @@
-body {
+dbody {
     font-family: Arial, sans-serif;
     font-style: color white;
     margin: 0;
@@ -14,7 +14,7 @@ h1 {
     padding: 30px;
     text-align: center;
 }
-p1 {
+header {
     font-size: 30px;
     background-color: #0063bf93;
     color: #ffffff;
