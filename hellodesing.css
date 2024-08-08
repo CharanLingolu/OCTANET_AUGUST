@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    font-style: color white;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #0030bf94;
+    color: #ffffff;
+    text-decoration: solid;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #0051ffa5;
+    padding: 30px;
+    text-align: center;
+}
+a
+p {
+    font-size: 30px;
+    background-color: #0063bf93;
+    color: #ffffff;
+    text-decoration: solid;
+    -ms-text-size-adjust: 30%;
+    -webkit-text-stroke: 0.8px;
+    -webkit-text-stroke-color: #0051ffa5;
+    padding: 10px;
+    text-align: center;
+}
+
+#features, #contact, #gallery {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration: color(white);
+    text-decoration-color: #fff;
+    background-color: #0000002e;
+}
+
+h2 {
+    color: #66ff00;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.638);
+}
+
+li {
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: large;
+    color: rgb(251, 255, 0);
+    background-color: rgba(14, 103, 220, 0.273);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #020afcc3;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #000000;
+    color: #ffffffe1;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0, 64, 102);
+}
+
+@media (max-width: 768px) {
+    .gallery-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+label {
+    -webkit-text-fill-color: white;
+}
+div {
+    
+}
