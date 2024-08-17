@@ -1,44 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cutting-Edge Mobile Processors</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>To-Do List</title>
 </head>
-<body> 
-    <link rel="stylesheet" href="hellodesing.css">
-    <header>
-        <h1>Welcome to the Future of Mobile Processors</h1>
-        <p>Discover the latest advancements in mobile processing technology.</p>
-    </header>
-    <section id="features">
-        <h2>Features</h2>
-        <ul>
-            <li>High Performance</li>
-            <li>Energy Efficiency</li>
-            <li>AI Integration</li>
-            <li>Enhanced Security</li>
-        </ul>
-        <Body background="processorbg.jpg"></Body>
-    </section>
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery-container">
-            <img src="pro@.jpg" alt="Processor Image 1">
-            <img src="processor1.jpg" alt="Processor Image 2">
-            <img src="pro@@.jpg" alt="Processor Image 3">
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-    <script src="hey.js"></script>
+<body>
+    <Body background="todo.jpg"></Body>
+    <img src="todolist.png">
+  <h1>To-Do List</h1>
+  <form id="taskForm">
+    <input type="text" id="taskInput" placeholder="Add a task">
+    <button type="submit">Add</button>
+  </form>
+  <ul id="taskList"></ul>
+  <button id="clearButton">Clear Completed</button>
+  <script src="script.js"></script>
 </body>
 </html>
